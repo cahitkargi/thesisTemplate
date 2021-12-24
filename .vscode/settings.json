@@ -1,0 +1,9 @@
+{
+    "editor.rulers": [120],
+    "editor.wordWrap": "on",
+    "latex-workshop.latex.outDir": "./out/",
+    "latex-workshop.view.pdf.ref.viewer": "external",
+    "cSpell.words": [
+        "Trotterisation"
+    ]
+}
