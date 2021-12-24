@@ -1,0 +1,16 @@
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{1}
+
+\bibitem{Qb1}
+S.~Huelga and M.~Plenio, ``Vibrations, quanta and biology,'' {\em Contemporary
+  Physics}, vol.~54, no.~4, pp.~181--207, 2013.
+
+\bibitem{Qb2}
+N.~Lambert, Y.-N. Chen, Y.-C. Cheng, C.-M. Li, G.-Y. Chen, and F.~Nori,
+  ``Quantum biology,'' {\em Nature Physics}, vol.~9, pp.~10--18, 2013.
+
+\bibitem{Qb3}
+M.~Mohseni, Y.~Omar, G.~Engel, and M.~Plenio, {\em Quantum Effects in Biology}.
+\newblock Cambridge University Press, Cambridge, 2014.
+
+\end{thebibliography}

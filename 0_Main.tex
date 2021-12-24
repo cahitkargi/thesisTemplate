@@ -1,0 +1,65 @@
+%%%%%% THESIS STYLE %%%%%%%
+\documentclass[titlepage,chapternotes]{utsthesis}
+%%%%%% MULTI-FILE %%%%%%%
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+%%%%%% MULTI-BIB %%%%%%%
+\usepackage[sectionbib, numbers, sort&compress]{natbib}
+\usepackage[globalcitecopy]{bibunits}
+\defaultbibliography{references}
+\renewcommand{\bibsection}{\section*{References}}
+%%%%%% HYPERLINK %%%%%%%
+\usepackage[colorlinks=true,linkcolor=blue,linktoc=all]{hyperref}
+%%%%%% LOREM %%%%%%%
+\usepackage{blindtext}
+
+\providecommand{\dbar}{d\hspace*{-0.08em}\bar{}\hspace*{0.1em}}
+
+\input{macros}
+
+\begin{document}
+\bibliographyunit[\chapter]
+
+\Title{Thesis Title}
+\Author{Author Name}
+\Degree{Degree}
+\Year{\thesisDate}
+\Program{Physics}
+
+
+\prelimpages
+%
+\titlepage
+\thesissignaturepage
+\dedication{Dedication}
+\abstract{
+    \blindtext
+}
+
+\acknowledgments{
+    \blindtext
+}
+\tableofcontents
+\listoffigures
+\listoftables
+\abbreviations
+\textpages
+%
+
+\part{Part Title 1}
+
+\import{}{Part_1/1_intro/1_introduction}
+\putbib
+
+\import{}{Part_1/2_anotherChapter/2_anotherChapter}
+\putbib
+
+\part{Part Title 2}
+
+\import{}{Part_2/3_someChapter/3_someChapter}
+\import{}{Part_2/4_someOtherChapter/4_someOtherChapter}
+
+%\bibliographystyle{ksfh_nat}
+%\bibliography{references}
+
+\end{document}

@@ -1,0 +1,23 @@
+\documentclass[class=../../utsthesis, crop=false]{standalone}
+\usepackage[subpreambles=true]{standalone}
+\usepackage{import}
+\usepackage{blindtext}
+
+\usepackage{ifthen}
+\newboolean{fullComp} 
+
+\begin{document}
+%%% false WHEN COMPILING INDIVIDUALLY %%%
+\setboolean{fullComp}{true}
+\textpages
+
+\chapter{\label{INTRO}Introduction}
+
+\blindtext~\cite{Qb1,Qb2,Qb3}
+
+\ifthenelse{\boolean{fullComp}}{\import{}{Part_1/1_intro/Section1}}{\import{}{Section1}}
+\ifthenelse{\boolean{fullComp}}{\import{}{Part_1/1_intro/Section2}}{\import{}{Section2}}
+
+\ifthenelse{\boolean{fullComp}}{}{\bibliographystyle{ieeetr}}
+\ifthenelse{\boolean{fullComp}}{}{\bibliography{../../references}}
+\end{document}

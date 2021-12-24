@@ -1,0 +1,9 @@
+\providecommand{\noopsort}[1]{}\providecommand{\singleletter}[1]{#1}%
+\begin{thebibliography}{1}
+
+\bibitem{Qb1}
+S.F. Huelga and M.B. Plenio.
+\newblock Vibrations, quanta and biology.
+\newblock {\em Contemporary Physics}, 54(4):181--207, 2013.
+
+\end{thebibliography}

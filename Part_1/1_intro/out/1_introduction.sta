@@ -1,0 +1,8 @@
+\standalonepreambles
+\subpreamble{Section1.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {blindtext}
+\endsubpreamble
+\subpreamble{Section2.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {blindtext}
+\endsubpreamble
+\endstandalonepreambles

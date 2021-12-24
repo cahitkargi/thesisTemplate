@@ -1,0 +1,11 @@
+\contentsline {chapter}{\@textofLoF }{viii}{chapter*.5}%
+\contentsline {chapter}{\@textofLoT }{ix}{chapter*.6}%
+\contentsline {chapter}{\@textofAbbreviations }{x}{chapter*.7}%
+\contentsline {part}{I\hspace {1em}Part Title 1}{1}{part.1}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 1:}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Section One}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Section Two}{2}{section.1.2}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 2:}another section}{1}{chapter.2}%
+\contentsline {part}{II\hspace {1em}Part Title 2}{2}{part.2}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 3:}some section}{1}{chapter.3}%
+\contentsline {chapter}{\numberline {\@textofChapter \ 4:}some other section}{1}{chapter.4}%
