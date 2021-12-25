@@ -553,14 +553,14 @@ INPUT ./Section2.tex
 INPUT ./Section2.tex
 INPUT Section2.tex
 INPUT Section2.tex
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT out/1_introduction.pdf
 INPUT /usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT out/1_introduction.bbl
 INPUT out/1_introduction.bbl
 INPUT out/1_introduction.bbl
 INPUT out/1_introduction.bbl
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT out/1_introduction.aux
 INPUT /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb

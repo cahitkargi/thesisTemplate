@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.13)  24 DEC 2021 21:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.13)  25 DEC 2021 16:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -431,11 +431,11 @@ LaTeX Info: Redefining \nameref on input line 20.
 \@outlinefile=\write6
 \openout6 = `0_Main.out'.
 
-<UTS_logo.png, id=48, 1204.5pt x 510.90875pt>
+<UTS_logo.png, id=52, 1204.5pt x 510.90875pt>
 File: UTS_logo.png Graphic file (type png)
 <use UTS_logo.png>
 Package pdftex.def Info: UTS_logo.png  used on input line 32.
-(pdftex.def)             Requested size: 135.93231pt x 57.66289pt.
+(pdftex.def)             Requested size: 131.90727pt x 55.95287pt.
  [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./UTS_logo.png>]
@@ -494,109 +494,96 @@ No file bu.aux.
 
 
 
-] (./Part_1/1_intro/1_introduction.tex [2
-
-
-]
+] (./Part_1/1_intro/1_introduction.tex
 No file bu.aux.
 \@textofChapter 1.
 (out/bu1.aux)
 \openout5 = `bu1.aux'.
 
- (./Part_1/1_intro/Section1.tex) (./Part_1/1_intro/Section2.tex
-Underfull \vbox (badness 1968) has occurred while \output is active []
+ (./Part_1/1_intro/Section1.tex) (./Part_1/1_intro/Section2.tex [2
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.11 
-      [1
+] [3]
+Underfull \vbox (badness 5578) has occurred while \output is active []
 
-])) (out/bu1.bbl) (./Part_1/2_anotherChapter/2_anotherChapter.tex
+ [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+ [5]) (out/bu1.bbl
+Underfull \vbox (badness 2726) has occurred while \output is active []
 
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\footskip}{14.49998pt}.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.11 \textpages
-                [2] (out/bu1.aux)
+ [6]) [7]) (./Part_1/2_anotherChapter/2_anotherChapter.tex (out/bu1.aux)
 No file bu.aux.
 \@textofChapter 2.
 (out/bu2.aux)
 \openout5 = `bu2.aux'.
 
-) (out/bu2.bblpdfTeX warning (ext4): destination with the same identifier (name{cite.Qb1}) has been already used, duplicate ignored
+
+Underfull \vbox (badness 1454) has occurred while \output is active []
+
+ [8
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9] (out/bu2.bblpdfTeX warning (ext4): destination with the same identifier (name{cite.Qb1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.4 \bibitem{Qb1}
-                 )pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.57 \part
-          {Part Title 2} [1
+                 ) [10]) [11
 
-
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.57 \part{Part Title 2}
-                         [2
 
 ] (./Part_2/3_someChapter/3_someChapter.tex (out/bu2.aux)
 No file bu.aux.
 \@textofChapter 3.
-) (./Part_2/4_someOtherChapter/4_someOtherChapter.texpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 \textpages
-               [1
 
+Underfull \vbox (badness 2846) has occurred while \output is active []
 
+ [12
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.7 \textpages
-               [2
+] [13] (out/bu3.aux)
+\openout5 = `bu3.aux'.
+
+ (out/bu3.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 4.
+
+) [14]) (./Part_2/4_someOtherChapter/4_someOtherChapter.tex (out/bu3.aux)
+No file bu.aux.
+\@textofChapter 4.
+
+Underfull \vbox (badness 6741) has occurred while \output is active []
+
+ [15
 
 
 ]
-No file bu.aux.
-\@textofChapter 4.
-)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.65 \end{document}
-                    [1
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] (out/0_Main.aux)
+ [16] (out/bu4.aux)
+\openout5 = `bu4.aux'.
+
+ (out/bu4.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 4.
+
+) [17]) (out/0_Main.aux)
 Package rerunfilecheck Info: File `0_Main.out' has not changed.
-(rerunfilecheck)             Checksum: 4101078EC188548CC092B8DB53158B54;1313.
+(rerunfilecheck)             Checksum: 6F5B9F62EBD41299DEA30E3D69BDBD41;1431.
  ) 
 Here is how much of TeX's memory you used:
- 11663 strings out of 478994
- 173768 string characters out of 5858183
- 472646 words of memory out of 5000000
- 28836 multiletter control sequences out of 15000+600000
- 411257 words of font info for 55 fonts, out of 8000000 for 9000
+ 11686 strings out of 478994
+ 174006 string characters out of 5858183
+ 479706 words of memory out of 5000000
+ 28829 multiletter control sequences out of 15000+600000
+ 411551 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,11n,102p,358b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on out/0_Main.pdf (19 pages, 122937 bytes).
+ 98i,11n,102p,358b,564s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxsl10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on out/0_Main.pdf (27 pages, 143783 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 263 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
+ 51 named destinations out of 1000 (max. 500000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

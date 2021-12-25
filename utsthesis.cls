@@ -63,8 +63,8 @@
 \voffset -0.9in  
 \hoffset -1in
 
-\topmargin 60\p@  
-\headheight 12\p@
+\topmargin 50\p@  
+\headheight 15\p@
 \headsep 36\p@
 \oddsidemargin 90\p@ 
 \evensidemargin 90\p@
@@ -72,7 +72,7 @@
 \botmargin 50\p@
 \marginparwidth 72\p@
 \marginparsep 7\p@
-\footskip \z@ % set later
+\footskip 45\p@ % set later
 \footnotesep 14\p@
 \parindent 1.5em
 
@@ -80,7 +80,7 @@
   \advance\textheight by-\topmargin
   \advance\textheight by-\headheight
   \advance\textheight by-\headsep
-  % \advance\textheight by-\footskip
+  \advance\textheight by-\footskip
   \advance\textheight by-\botmargin
 \textwidth\paperwidth
   \advance\textwidth by-\oddsidemargin
@@ -175,7 +175,7 @@
   \def\printendnotes{% Prints the accumulated notes
     \chapter*{Notes}
     \addcontentsline{toc}{chapter}{Notes}
-    \thispagestyle{plain}
+    \pagestyle{plain}
     \begin{description}
     \immediate\closeout\tf@not
     \catcode`@=11
@@ -207,11 +207,12 @@
 \def\textpages{% Start of text pages
    \clearpage\pagestyle{empty}
    \cleardoublepage\pagestyle{fancy}\markboth{}{}
+   \pagestyle{fancy}
    \def\@chapapp{\protect\@textofChapter}
    \def\Thechapter{\arabic{chapter}}
-   \pagenumbering{arabic}
-   \advance\textheight by\footskip % no bottom-of-page numbers now
-     \footskip\z@
+   %\pagenumbering{arabic}
+   \advance\textheight by 0\p@ % no bottom-of-page numbers now
+     %\footskip 60\p@
    % \ifarchitect \textwidth 614\p@ \oddsidemargin 36\p@ \twocolumn\fi
    }
  
@@ -238,7 +239,7 @@
 \def\chapter{
    \printchapternotes
    \if@openright\cleardoublepage\else\clearpage\fi
-   \thispagestyle{empty}
+   \thispagestyle{fancy}
    \global\@topnum\z@
    \@afterindenttrue
    % \let\\\relax
@@ -448,8 +449,8 @@
    \pagestyle{empty} % will be {plain} at start of toc
    \pagenumbering{roman}
    \setcounter{page}{1}
-   \footskip 30\p@ % allowance for the roman page numbers
-    \advance\textheight by-\footskip  
+   %\footskip 60\p@ % allowance for the roman page numbers
+    \advance\textheight by -10\p@
    % \ifarchitect \textwidth 450\p@ \oddsidemargin 118\p@\fi
    }
 %
@@ -487,7 +488,7 @@
       \textbf{\@Author}
       \par\vskip\z@ plus1fill\relax
       \@Degreetext
-      \par\vskip\z@ \relax
+      \par\vskip\z@ plus1fill\relax
       \@Degree~\@In~\@Program
       \par\vskip\z@ plus1fill\relax
       \@InThe
@@ -517,13 +518,13 @@
       \begin{large}\textbf{Certificate of Original Authorship}\end{large}
     \end{center}
     \vskip\p@ plus0.1fill\relax
-    I, \@Author, certify that the work in this thesis has not previously been submitted for a degree nor has it been submitted as part of the requirements for a degree except where fully acknowledged within the text. 
+    I, \@Author~declare that this thesis, is submitted in fulfilment of the requirements for the award of \@Degree, in the \@GSchool at the \@School.
 
-    I also certify that the thesis has been written by me. 
-    Any help that I have received in my research work and the preparation of the thesis itself has been acknowledged.   
-
-    In addition, I certify that all information sources and literature used are indicated in the thesis.
+    Except where acknowledged in the customary manner, the material presented in this thesis is, to the best of my knowledge, original and has not been submitted in whole or part for a degree in any university.
     
+    This thesis is wholly my own work unless otherwise referenced or acknowledged. In addition, I certify that all information sources and literature used are indicated in the thesis. 
+
+    This research is supported by the Australian Government Research Training Program.
     \begin{center}
       \par\vskip\p@ plus0.1fill\relax
       \makebox[\textwidth]{\hspace{10pc}\hrulefill\hspace{10pc}}
@@ -552,9 +553,8 @@
 %
 %
 \def\textofToC#1{\gdef\@textofToC{#1}}  \textofToC{Table of Contents}
-\def\tableofcontents{\cleardoublepage
+\def\tableofcontents{\pagestyle{plain}\cleardoublepage
    \chapter*{\@textofToC\@mkboth{}{}}
-   \pagestyle{plain}
    \thispagestyle{plain}
    %\setcounter{page}{1}
    {\let\footnotemark\relax  % in case one is in the title
@@ -657,4 +657,4 @@
    \def\makelabel##1{\footnotesize\uppercase{##1:}\hfill}}}
   {\end{list}}
 
-% End of the thesis style
+  % End of the thesis style
