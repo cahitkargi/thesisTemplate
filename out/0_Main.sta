@@ -1,20 +1,20 @@
 \standalonepreambles
 \subpreamble{Part_1/1_intro/1_introduction.tex}
-\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {blindtext}\usepackage {ifthen}\newboolean {fullComp}
+\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {blindtext}
 \endsubpreamble
 \subpreamble{Part_1/1_intro/Section1.tex}
-\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {blindtext}
+\usepackage [subpreambles=true]{standalone}\usepackage {blindtext}
 \endsubpreamble
 \subpreamble{Part_1/1_intro/Section2.tex}
+\usepackage [subpreambles=true]{standalone}\usepackage {blindtext}
+\endsubpreamble
+\subpreamble{Part_1/2_Background/2_Background.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {blindtext}
 \endsubpreamble
-\subpreamble{Part_1/2_anotherChapter/2_anotherChapter.tex}
-\usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {blindtext}\usepackage {xr}\externaldocument {Part_1/1_intro/introduction}\externaldocument {Part_1/1_intro/Section1}
-\endsubpreamble
-\subpreamble{Part_2/3_someChapter/3_someChapter.tex}
+\subpreamble{Part_2/3_Results/3_Results.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {blindtext}
 \endsubpreamble
-\subpreamble{Part_2/4_someOtherChapter/4_someOtherChapter.tex}
+\subpreamble{Part_2/4_ConclusionsAndOutlook/4_ConclusionsAndOutlook.tex}
 \usepackage [subpreambles=true]{standalone}\usepackage {import}\usepackage {blindtext}
 \endsubpreamble
 \endstandalonepreambles

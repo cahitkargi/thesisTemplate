@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex out/1_introduction"] 1640411047 "out/1_introduction.aux" "out/1_introduction.bbl" "out/1_introduction" 1640411048
-  "../../references.bib" 1640411005 1065 1bcca398cd91fef8fc204a97f3ddbea7 ""
+["bibtex out/1_introduction"] 1640872634 "out/1_introduction.aux" "out/1_introduction.bbl" "out/1_introduction" 1640872636
+  "../../references.bib" 1640872077 945 7f78c647c5d604b78b23d0c3ff58ecd2 ""
   "/usr/local/texlive/2021/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "out/1_introduction.aux" 1640411048 946 5509c4c64f18a061d73c65d80b4f55a6 "pdflatex"
+  "out/1_introduction.aux" 1640872635 946 5509c4c64f18a061d73c65d80b4f55a6 "pdflatex"
   (generated)
-  "out/1_introduction.blg"
   "out/1_introduction.bbl"
-["pdflatex"] 1640411047 "/Volumes/T7/Dropbox/PhD/Thesis_Sample/PhD/Part_1/1_intro/1_introduction.tex" "out/1_introduction.pdf" "1_introduction" 1640411048
-  "../../utsthesis.cls" 1640410722 18597 bc31102bf5794c508c54d6f219578704 ""
-  "/Volumes/T7/Dropbox/PhD/Thesis_Sample/PhD/Part_1/1_intro/1_introduction.tex" 1640411045 735 3c83d8db0138adddbf7975486e46cdc7 ""
-  "/dev/null" 1640410932 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "out/1_introduction.blg"
+["pdflatex"] 1640872635 "/Volumes/T7/Dropbox/PhD/Thesis_Sample/PhD/Part_1/1_intro/1_introduction.tex" "out/1_introduction.pdf" "1_introduction" 1640872636
+  "../../utsthesis.cls" 1640871252 18597 dc3dc715317537c18645d6747b2ecc12 ""
+  "/Volumes/T7/Dropbox/PhD/Thesis_Sample/PhD/Part_1/1_intro/1_introduction.tex" 1640872632 1705 82a5f118023750c410d1a86ca70fe755 ""
+  "/dev/null" 1640872534 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2021/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmbxsl10.tfm" 1136768653 1532 d8160fb2d5f634e769c9f972be05f829 ""
@@ -43,7 +43,6 @@
   "/usr/local/texlive/2021/texmf-dist/tex/latex/amsmath/amstext.sty" 1523134290 2432 8ff93b1137020e8f21930562a874ae66 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/bk12.clo" 1601675358 8286 8742a2912302a96d3ac48d34d6a46fbd ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/base/book.cls" 1601675358 23269 46aa9b22aad0e958412c5a46b0e46893 ""
-  "/usr/local/texlive/2021/texmf-dist/tex/latex/base/ifthen.sty" 1580683321 5159 892429808d9e0e2b3548aaefd9a06ed0 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/blindtext/blindtext.sty" 1325892463 47295 de48b7f8ebf4b54709a2f6b2c7106dd5 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/collectbox/collectbox.sty" 1337644648 9116 495d44b5a3e7be0c46c5d1f053f457f0 ""
   "/usr/local/texlive/2021/texmf-dist/tex/latex/currfile/currfile.sty" 1601414725 10656 17980563b913b3420c2e21a7061bb517 ""
@@ -77,14 +76,14 @@
   "/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1616695603 5169178 a2ce6e2d73f603b690db6777d06dbccb ""
   "/usr/local/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1639348974 2724744 6e04fca94ca4dbb344f31782f8ba506d ""
   "/usr/local/texlive/2021/texmf.cnf" 1616695596 577 4c1911a7228e554c6032256d3cf5567d ""
-  "1_introduction.tex" 1640411045 735 3c83d8db0138adddbf7975486e46cdc7 ""
-  "Section1.tex" 1640410779 257 f2766c3ea95f945bf6c3f68c6e6ec52f ""
-  "Section2.tex" 1640410779 460 92517fd282d3a4e8ffca72b200d74b02 ""
-  "out/1_introduction.aux" 1640411048 946 5509c4c64f18a061d73c65d80b4f55a6 "pdflatex"
-  "out/1_introduction.bbl" 1640411047 570 3ef3482be8ebb78ce83082e8f5167b14 "bibtex out/1_introduction"
-  "out/1_introduction.sta" 1640411048 305 03e39aa3939bbbc4f146d519b7681aa4 "pdflatex"
+  "1_introduction.tex" 1640872632 1705 82a5f118023750c410d1a86ca70fe755 ""
+  "Section1.tex" 1640871133 909 7ce6df459b22091ee6b4d8e8a26aba24 ""
+  "Section2.tex" 1640871133 1113 477c050dc854ec3ea78333a57b70a5fd ""
+  "out/1_introduction.aux" 1640872635 946 5509c4c64f18a061d73c65d80b4f55a6 "pdflatex"
+  "out/1_introduction.bbl" 1640872635 591 7c254b3f4a0b7737f457689bede419c1 "bibtex out/1_introduction"
+  "out/1_introduction.sta" 1640872635 265 1364bc44f8d8f9cfb6cfa594925d7ddb "pdflatex"
   (generated)
+  "out/1_introduction.sta"
   "out/1_introduction.aux"
   "out/1_introduction.log"
-  "out/1_introduction.sta"
   "out/1_introduction.pdf"

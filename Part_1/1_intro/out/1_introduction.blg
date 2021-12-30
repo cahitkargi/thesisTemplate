@@ -5,37 +5,37 @@ The style file: ieeetr.bst
 Database file #1: ../../references.bib
 You've used 3 entries,
             1876 wiz_defined-function locations,
-            500 strings with 3931 characters,
-and the built_in function-call counts, 867 in all, are:
-= -- 79
-> -- 42
+            496 strings with 3901 characters,
+and the built_in function-call counts, 724 in all, are:
+= -- 68
+> -- 26
 < -- 0
-+ -- 15
-- -- 12
-* -- 63
-:= -- 133
++ -- 10
+- -- 7
+* -- 52
+:= -- 114
 add.period$ -- 4
 call.type$ -- 3
 change.case$ -- 2
 chr.to.int$ -- 0
 cite$ -- 3
-duplicate$ -- 41
-empty$ -- 78
-format.name$ -- 12
-if$ -- 210
+duplicate$ -- 35
+empty$ -- 73
+format.name$ -- 7
+if$ -- 177
 int.to.chr$ -- 0
 int.to.str$ -- 3
 missing$ -- 4
 newline$ -- 14
 num.names$ -- 3
-pop$ -- 9
+pop$ -- 8
 preamble$ -- 2
 purify$ -- 0
 quote$ -- 0
-skip$ -- 26
+skip$ -- 17
 stack$ -- 0
-substring$ -- 48
-swap$ -- 17
+substring$ -- 36
+swap$ -- 11
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
@@ -43,4 +43,4 @@ type$ -- 0
 warning$ -- 0
 while$ -- 7
 width$ -- 4
-write$ -- 33
+write$ -- 34

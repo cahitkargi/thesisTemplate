@@ -2,6 +2,10 @@
 % For \xspace command.
 \usepackage{xspace}
 \usepackage{epstopdf}
+\usepackage{ifthen}
+\newboolean{fullComp} 
+%%% false WHEN COMPILING INDIVIDUALLY %%%
+\setboolean{fullComp}{true}
 
 \newcommand \COMMENT  [1] {}       % comment out the contents
 

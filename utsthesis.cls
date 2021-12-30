@@ -518,7 +518,7 @@
       \begin{large}\textbf{Certificate of Original Authorship}\end{large}
     \end{center}
     \vskip\p@ plus0.1fill\relax
-    I, \@Author~declare that this thesis, is submitted in fulfilment of the requirements for the award of \@Degree, in the \@GSchool at the \@School.
+    I, \@Author~declare that this thesis, is submitted in fulfilment of the requirements for the award of \@Degree, in the \@GSchool~at the \@School.
 
     Except where acknowledged in the customary manner, the material presented in this thesis is, to the best of my knowledge, original and has not been submitted in whole or part for a degree in any university.
     

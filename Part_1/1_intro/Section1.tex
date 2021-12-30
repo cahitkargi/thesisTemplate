@@ -1,13 +1,32 @@
+%%% use these in every file %%%
 \documentclass[class=../../utsthesis, crop=false]{standalone}
 \usepackage[subpreambles=true]{standalone}
-\usepackage{import}
+
+
+%%% other packages %%%
 \usepackage{blindtext}
 
-\begin{document}
-%\textpages
 
+
+%%% start every file as below
+\begin{document}
+% remove the comment tag for textpages when you want to compile this individually %%%
+% \textpages
+
+
+
+%%% your text goes here %%%
 \section{\label{SECTIONONE}Section One}
 
 \blindtext~\cite{Qb2}
 
+
+
+%%% finally, the bibliography settings are also different when compiling the whole thesis or individual chapters
+% just simply copy and paste the below lines all the sub-files %%%
+% use these when compiling the chapter and comment out the above ones
+% note that the references style is different when you compile the whole theses
+% this is just to test your references are working/citing properly %%%
+% \bibliographystyle{ieeetr}
+% \bibliography{../../references}
 \end{document}
